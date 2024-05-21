@@ -1,0 +1,64 @@
+.searchForm > div {
+  display: flex;
+}
+
+.searchForm {
+  width: 400px;
+}
+
+.task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.task1__searchFormDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.searchForm div {
+  display: flex;
+  gap: 10px;
+}
+
+.filmsUl {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  position: relative;
+  top: 50px;
+}
+
+.detalsDivDizayn div {
+  display: flex;
+  gap: 20px;
+}
+
+.detalsDiv > div {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.detalsDiv {
+  position: relative;
+  top: 70px;
+}
+.nextPageDiv {
+  position: relative;
+  top: 70px;
+}
+
+.nextPageDiv button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
